@@ -6,10 +6,9 @@ const AddTodos = ({ todos, setTodos }) => {
 
     const submitHandler = e => {
         e.preventDefault();
-        var temp = {id: todos[0].id + 1, title: inputRef.current.value, completed: false };
-        window.localStorage.removeItem('todos');
-        window.localStorage.setItem('todos', temp);
-        setTodos([temp, ...todos])
+        var temp = [{id: todos[0].id + 1, title: inputRef.current.value, completed: false }, ...todos];
+        window.localStorage.setItem('todos', JSON.stringify(temp));
+        setTodos([...temp]);
     }
 
     return (
