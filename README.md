@@ -1,8 +1,28 @@
-# Getting Started with Create React App
+# Getting Started with react-todo-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Cloning the Project
+
+In your local directory, you can run:
+
+### `git clone https://github.com/richardlisc/react-todo-app.git`
+
+## Setup
+
+To start the project, you need to install Node.js first:
+
+https://nodejs.org/en/
+
+## After Installing Node.js
+
+In the project directory, you can run:
+
+### `npm install`
+
+This will create a node_modules directory inside the project directory
+
+## Starting the App
 
 In the project directory, you can run:
 
@@ -13,6 +33,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Other Scripts
 
 ### `npm test`
 
